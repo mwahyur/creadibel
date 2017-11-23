@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 
     public function index()
     {
-    	redirect('admin/Home');
+    	$this->load->view('Home');
     }
 
 }
